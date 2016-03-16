@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Site de Victorien et Sacha</title>
+	<meta charset="utf-8" />
+	<link rel="stylsheet" href="style.css" />
+	<title>Site de Sacha et Victorien</title>
+	<style type="text/css">	
+	 body {
+		background-color: #dfdfdf
+		}
+
+	 .menu{
+		display: table;
+		width: 650px;
+		padding: 0;
+	}
+	.menu li{
+		display: table-cell;
+	}       
+
+	.menu{
+	   
+		background: linear-gradient(deepskyblue, dodgerblue);
+	}
+
+	.menu{
+		background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+		background:    -moz-linear-gradient(deepskyblue, dodgerblue);
+		background:     -ms-linear-gradient(deepskyblue, dodgerblue);
+		background:      -o-linear-gradient(deepskyblue, dodgerblue);
+		background:         linear-gradient(deepskyblue, dodgerblue);
+	}
+	.menu{
+		background: dodgerblue;
+	}
+	.menu{
+		border-radius: 3px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+					0 3px 5px rgba(0, 0, 0, .2),
+					0 5px 10px rgba(0, 0, 0, .2),
+					0 20px 20px rgba(0, 0, 0, .15);
+	}
+	.menu li a{
+		display: block;
+		text-align: center;
+		color: rgba(0, 0, 0, .7); 
+		text-decoration: none;
+		padding: 8px 8px 17px 8px;
+	}
+	.menu li a{
+		
+		text-shadow: 0 2px 0 rgba(255, 255, 255, .4);
+	}
+	.menu li a{
+
+		box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+					0 -1px 0 hsl(210, 100%, 32%) inset, 
+					0 -2px 0 hsl(210, 100%, 38%) inset, 
+					0 -3px 0 hsl(210, 100%, 44%) inset, 
+					0 -4px 0 hsl(210, 100%, 50%) inset, 
+					0 -5px 0 hsl(210, 100%, 60%) inset;
+	}
+	.menu li:first-child a{
+		border-radius: 3px 0 0 3px;
+	}
+	.menu li:last-child a{
+		border-radius: 0 3px 3px 0;
+	}
+	.menu li a:hover, 
+	.menu li a:focus{
+		background: rgba(255,255,255,.2);
+		box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+					0 -1px 0 hsl(210, 100%, 42%) inset, 
+					0 -2px 0 hsl(210, 100%, 48%) inset, 
+					0 -3px 0 hsl(210, 100%, 54%) inset, 
+					0 -4px 0 hsl(210, 100%, 60%) inset, 
+					0 -5px 0 hsl(210, 100%, 70%) inset; 
+	} 
+	.menu li a:active{
+		background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+		box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+	}
+	.menu li a:hover,
+	.menu li a:focus{
+		padding: 8px 25px 17px 25px;
+	}
+	.menu li a{
+		
+		position: relative;
+	}
+	.menu li a::before{
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 9px;
+		margin-left: -2px;
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background: rgba(0, 0, 0, .5);
+	}
+	.menu li a:hover::before,
+	.menu li a:focus::before{
+		background: white;
+		box-shadow: 0 0 2px white, 
+					0 -1px 0 rgba(0, 0, 0, .4);
+	}
+	</style>
+</head>
+<body>
+
+<div>
+	<center>
+	<ul class="menu">
+		<li><a href="presentation.html">Revenir à l'accueil</a></li>  
+		<li><a href="page2.html">CROSSY BRICK</a></li>  
+		<li><a href='perso.html'>Le personnage</a></li>
+		<li><a href="brique.html">Déplacements des briques</a></li>
+
+	</ul>
+	</center>
+	<p align="center"><font color="blue"><font size=6><b><big>Interface graphique</big></b></font></font></p><!-- Commentaire -->
+</div>
+	 <!-- Text -->
+		<p>
+			<font size="4" face="Comic Sans MS" color="firebrick" >
+			<ul>
+				Nous avons travaillé d'abord sur la partie graphique du jeu:
+				<li>Nous avons placé des images sur notre canvas afin de préparer le terrain de jeu.</li>
+				<li>Pour ce qui est de la taille des images nous avons du gérer quelques problèmes quand a la taille des différents 
+				écrans utilisés lors de la création de notre jeu..Nous avons travaillé beaucoup d'image afin de faire une interface 
+				graphique comme celle ci, s'adaptant a tous les écrans.</li>
+			</ul>
+			</font>
+        </p>	
+	
+ 
+		<img alt="" src="photobac/image.jpg"  style="border-style:solid; border-width:2px;  height:600px; width:500px; margin-top:-10px; margin-left:100px;" />
+
+	 
+		<img alt="" src="photobac/graph.jpg"  style="border-style:solid; border-width:2px; height:500px; width:500px; margin-top:-1800px; margin-left:700px;" />
+	
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site de Victorien</title>
+	<meta charset="utf-8" />
+	<link rel="stylsheet" href="style.css" />
+	<style type="text/css">	
+	body {
+		background-color: #dfdfdf
+		}
+	.menu{
+		display: table;
+		width: 650px;
+		padding: 0;
+	}
+	.menu li{
+		display: table-cell;
+	}       
+
+	.menu{
+	   
+		background: linear-gradient(deepskyblue, dodgerblue);
+	}
+
+	.menu{
+		background: -webkit-linear-gradient(deepskyblue, dodgerblue);
+		background:    -moz-linear-gradient(deepskyblue, dodgerblue);
+		background:     -ms-linear-gradient(deepskyblue, dodgerblue);
+		background:      -o-linear-gradient(deepskyblue, dodgerblue);
+		background:         linear-gradient(deepskyblue, dodgerblue);
+	}
+	.menu{
+		background: dodgerblue;
+	}
+	.menu{
+		border-radius: 3px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+					0 3px 5px rgba(0, 0, 0, .2),
+					0 5px 10px rgba(0, 0, 0, .2),
+					0 20px 20px rgba(0, 0, 0, .15);
+	}
+	.menu li a{
+		display: block;
+		text-align: center;
+		color: rgba(0, 0, 0, .7); 
+		text-decoration: none;
+		padding: 8px 8px 17px 8px;
+	}
+	.menu li a{
+		
+		text-shadow: 0 2px 0 rgba(255, 255, 255, .4);
+	}
+	.menu li a{
+
+		box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+					0 -1px 0 hsl(210, 100%, 32%) inset, 
+					0 -2px 0 hsl(210, 100%, 38%) inset, 
+					0 -3px 0 hsl(210, 100%, 44%) inset, 
+					0 -4px 0 hsl(210, 100%, 50%) inset, 
+					0 -5px 0 hsl(210, 100%, 60%) inset;
+	}
+	.menu li:first-child a{
+		border-radius: 3px 0 0 3px;
+	}
+	.menu li:last-child a{
+		border-radius: 0 3px 3px 0;
+	}
+	.menu li a:hover, 
+	.menu li a:focus{
+		background: rgba(255,255,255,.2);
+		box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 
+					0 -1px 0 hsl(210, 100%, 42%) inset, 
+					0 -2px 0 hsl(210, 100%, 48%) inset, 
+					0 -3px 0 hsl(210, 100%, 54%) inset, 
+					0 -4px 0 hsl(210, 100%, 60%) inset, 
+					0 -5px 0 hsl(210, 100%, 70%) inset; 
+	} 
+	.menu li a:active{
+		background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1)); 
+		box-shadow: 0 0 2px rgba(0,0,0,.3) inset;
+	}
+	.menu li a:hover,
+	.menu li a:focus{
+		padding: 8px 25px 17px 25px;
+	}
+	.menu li a{
+		
+		position: relative;
+	}
+	.menu li a::before{
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 9px;
+		margin-left: -2px;
+		width: 4px;
+		height: 4px;
+		border-radius: 50%;
+		background: rgba(0, 0, 0, .5);
+	}
+	.menu li a:hover::before,
+	.menu li a:focus::before{
+		background: white;
+		box-shadow: 0 0 2px white, 
+					0 -1px 0 rgba(0, 0, 0, .4);
+	}
+	</style>             
+</head>
+<body>
+
+<div>
+	<center>
+	<ul class="menu">
+		<li><a href="presentation.html">Revenir à l'accueil</a></li>  
+		<li><a href="page2.html">CROSSY BRICK</a></li>  
+		<li><a href='perso.html'>Le personnage</a></li>
+		<li><a href='graphique.html'>Interface graphique</a></li>
+	</ul>
+	</center>
+	<p align="center"><font color="blue"><font size=6><b><big>Le déplacement des briques</big></b></font></font></p>
+</div>
+	<!-- Text -->
+		<p>   
+			<font size="4" face="Comic Sans MS" color="firebrick"> 
+			<ul>
+				Pour ce qui est de la partie déplacement des briques:
+				<li>Nous avons réaliser des fonctions pour chaque briques afin de les faire bouger a tour de rôle.</li>
+				<li>L’automatisation de mouvement des obstacles à éviter (briques bleus) présentant des difficultés, nous avons choisis dans un premier temps de déclencher les mouvements des obstacles à partir de simples boutons, contrôlant respectivement l’avancée et le retour de chaque brique. </li>
+			</ul>
+			</font>
+		</p>
+
+
+		<img alt="" src="photobac/fonction.jpg"  style="border-style:solid; border-width:2px; float:right; height:500px; margin:20px; width:500px" />
+		<img alt="" src="photobac/graph.jpg"  style="border-style:solid; border-width:2px; float:right; height:500px; margin:20px; width:500px" />		
+<div>
+	
+	<ul class="menu" align="center" style="margin-top:550px;">
+		<li><a href='brique2.html'>Nouveaux déplacements</a></li>
+	</ul>
+	
+</div>
+			
+			
+</body>
+
+</html>
